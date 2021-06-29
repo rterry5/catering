@@ -1,0 +1,39 @@
+.nav {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    // height: 200px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(255, 255, 255));
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+
+    &__logo {
+        height: 65px;
+    }
+
+    &__list {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    &__list-item {
+        list-style-type: none;
+    }
+
+    &__link {
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        color: #222222;
+        transition: all .25s ease-out;
+        &:hover {
+            color: rgb(235, 88, 107);
+        }
+    }
+}
