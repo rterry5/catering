@@ -153,20 +153,21 @@ p {
 /* line 32, ../sass/layout/_service.scss */
 .service__info-image {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
-/* line 37, ../sass/layout/_service.scss */
+/* line 38, ../sass/layout/_service.scss */
 .service__info-text {
   padding: 1rem;
 }
 
 @media (max-width: 767px) {
-  /* line 43, ../sass/layout/_service.scss */
+  /* line 44, ../sass/layout/_service.scss */
   .services {
     flex-wrap: wrap;
   }
 
-  /* line 46, ../sass/layout/_service.scss */
+  /* line 47, ../sass/layout/_service.scss */
   .service {
     width: 100%;
   }
