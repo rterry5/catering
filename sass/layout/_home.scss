@@ -1,0 +1,27 @@
+.home {
+    &__section {
+        padding: 4rem;
+        display: flex;
+        &--footer {
+            background-color: var(--dark-gray);
+            color: var(--white);
+            justify-content: center;
+        }
+    }
+
+    &__section-container {
+        margin: 1rem;
+    }
+
+    &__section-item {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 584px) {
+    .home {
+        &__section {
+            padding: 1rem;
+        }
+    }
+}

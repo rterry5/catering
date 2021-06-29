@@ -1,5 +1,28 @@
+:root {
+    --black: #000000;
+    --navy: #14213d;
+    --gold: #f2a22c;
+    --pink: #e5e5e5;
+    --white: #ffffff;
+    --dark-gray: #333333;
+    --light-gray: #cccccc;
+  }
+
+html {
+    height: 100%;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+p {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .07em;
+    line-height: 1.7em;
+    font-size: .875rem;
 }
