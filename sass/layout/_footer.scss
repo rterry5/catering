@@ -21,8 +21,6 @@
     }
 
     &__title {
-        font-family: 'Oswald', sans-serif;
-        font-weight: 300;
         text-decoration: underline;
     }
 
@@ -160,6 +158,10 @@
         }
         &__column {
             width: 100%;
+            margin: auto;
+        }
+        &__links-list {
+            flex-wrap: wrap;
         }
     }
     .map-responsive {
