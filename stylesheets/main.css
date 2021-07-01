@@ -364,9 +364,19 @@ p {
     grid-column-gap: 0;
     grid-row-gap: 0;
   }
-  /* line 137, ../sass/layout/_home.scss */
-  .home__grid-box, .home__grid-box--wide {
-    margin: 0.5rem;
+
+  /* line 138, ../sass/layout/_home.scss */
+  .home__grid-div2 {
+    margin-bottom: 1rem;
+  }
+
+  /* line 142, ../sass/layout/_home.scss */
+  .overlay {
+    margin-bottom: 1rem;
+  }
+  /* line 144, ../sass/layout/_home.scss */
+  .overlay:last-of-type {
+    margin-bottom: 0;
   }
 }
 /* line 2, ../sass/layout/_footer.scss */
