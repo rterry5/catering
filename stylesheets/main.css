@@ -42,7 +42,53 @@
 .nav__link:hover {
   color: var(--gold);
 }
+/* line 42, ../sass/layout/_nav.scss */
+.nav__hamburger-menu {
+  display: none;
+}
 
+@media (max-width: 568px) {
+  /* line 49, ../sass/layout/_nav.scss */
+  .nav--mobile {
+    overflow: hidden;
+    background-color: var(--white);
+    position: relative;
+  }
+  /* line 54, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__logo {
+    display: none;
+  }
+  /* line 58, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__list {
+    display: none;
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  /* line 64, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__link {
+    color: #333;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* line 69, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__link:hover {
+    background-color: var(--light-gray);
+  }
+  /* line 74, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__hamburger-menu {
+    background: var(--gold);
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
+  /* line 81, ../sass/layout/_nav.scss */
+  .nav--mobile .nav__menu-icon {
+    color: var(--white);
+    padding: 1rem;
+    transition: all .25s ease-out;
+  }
+}
 /* line 1, ../sass/layout/_template.scss */
 :root {
   --black: #000000;
@@ -89,7 +135,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   background-image: url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
 }
 

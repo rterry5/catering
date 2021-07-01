@@ -14,11 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="home">
-    <nav class="nav">
-        <ul class="nav__list">
+    
+    <nav class="nav nav--mobile">
+        <a href="javascript:void(0);" class="nav__hamburger-menu" onclick="myFunction()">
+            <i class="fa fa-bars nav__menu-icon"></i>
+        </a>
+        <ul class="nav__list" id="js-nav-links">
             <li class="nav__list-item">
                 <a href="" class="nav__link">
                     About
